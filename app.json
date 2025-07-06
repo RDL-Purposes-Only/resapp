@@ -1,5 +1,6 @@
 {
   "expo": {
+    "main": "expo-router-entry",
     "name": "resapp",
     "slug": "resapp",
     "version": "1.0.0",
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
